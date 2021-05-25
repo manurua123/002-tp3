@@ -1,0 +1,45 @@
+Class {
+	#name : #Tierra,
+	#superclass : #Uniforme,
+	#category : #'OO2-TP3-Composite'
+}
+
+{ #category : #calculating }
+Tierra >> = aTopografia [
+	^aTopografia somosTierra.
+]
+
+{ #category : #calculating }
+Tierra >> proporcionAgua [
+	^0.
+]
+
+{ #category : #calculating }
+Tierra >> proporcionPantano [
+^0
+]
+
+{ #category : #calculating }
+Tierra >> proporcionTierra [
+	^1
+]
+
+{ #category : #calculating }
+Tierra >> somosAgua [
+	^false
+]
+
+{ #category : #calculating }
+Tierra >> somosPantano [
+	^false.
+]
+
+{ #category : #calculating }
+Tierra >> somosTierra [
+	^true
+]
+
+{ #category : #calculating }
+Tierra >> terrenoProductivo [
+^0.9
+]

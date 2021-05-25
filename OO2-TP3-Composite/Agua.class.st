@@ -1,0 +1,58 @@
+"
+Please comment me using the following template inspired by Class Responsibility Collaborator (CRC) design:
+
+For the 
+- (for bonus points) how to create instances.
+
+   One simple example is simply gorgeous.
+ 
+Internal Representation and Key Implementation Points.
+
+
+    Implementation Points
+"
+Class {
+	#name : #Agua,
+	#superclass : #Uniforme,
+	#category : #'OO2-TP3-Composite'
+}
+
+{ #category : #calculating }
+Agua >> = aTopografia [
+	^aTopografia somosAgua.
+]
+
+{ #category : #calculating }
+Agua >> proporcionAgua [
+	^1.
+]
+
+{ #category : #calculating }
+Agua >> proporcionPantano [
+	 ^0
+]
+
+{ #category : #calculating }
+Agua >> proporcionTierra [
+	^0
+]
+
+{ #category : #calculating }
+Agua >> somosAgua [
+	^true.
+]
+
+{ #category : #calculating }
+Agua >> somosPantano [
+^false.
+]
+
+{ #category : #calculating }
+Agua >> somosTierra [
+	^false
+]
+
+{ #category : #calculating }
+Agua >> terrenoProductivo [
+	 ^0
+]
