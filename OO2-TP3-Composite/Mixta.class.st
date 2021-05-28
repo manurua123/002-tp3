@@ -13,11 +13,6 @@ Mixta class >> new: anOrderedCollection [
 	 yourself.
 ]
 
-{ #category : #comparing }
-Mixta >> = aTopografia [ 
-	^aTopografia somosMixtas:self
-]
-
 { #category : #'as yet unclassified' }
 Mixta >> proporcionAgua [
 	^(self topografias sumNumbers:  [ :each | each proporcionAgua  ])/4
@@ -26,31 +21,6 @@ Mixta >> proporcionAgua [
 { #category : #'as yet unclassified' }
 Mixta >> proporcionTierra [
 	^(self topografias sumNumbers:  [ :each | each proporcionTierra ])/4
-]
-
-{ #category : #comparing }
-Mixta >> somosAgua [
-	^false
-]
-
-{ #category : #comparing }
-Mixta >> somosMixtas: aTopografia [
-	^(self topografias hasEqualElements: aTopografia topografias ) 
-]
-
-{ #category : #'as yet unclassified' }
-Mixta >> somosPantano [
-	^false.
-]
-
-{ #category : #'as yet unclassified' }
-Mixta >> somosPantano: aTopografia [
-	^false.
-]
-
-{ #category : #comparing }
-Mixta >> somosTierra [
-	^false
 ]
 
 { #category : #'as yet unclassified' }

@@ -15,11 +15,6 @@ Pantano class >> new [
 		proporcionTierra: 0.3 yourself
 ]
 
-{ #category : #calculating }
-Pantano >> = aTopografia [
-	^ aTopografia somosPantano 
-]
-
 { #category : #'instance creation' }
 Pantano >> new [
 	^ self new
@@ -46,21 +41,6 @@ Pantano >> proporcionTierra [
 { #category : #accessing }
 Pantano >> proporcionTierra: anObject [
 	proporcionTierra := anObject
-]
-
-{ #category : #calculating }
-Pantano >> somosAgua [
- ^false.
-]
-
-{ #category : #calculating }
-Pantano >> somosPantano [ 
- ^true.
-]
-
-{ #category : #calculating }
-Pantano >> somosTierra [
-	^false.
 ]
 
 { #category : #calculating }

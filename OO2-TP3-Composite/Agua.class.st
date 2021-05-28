@@ -33,21 +33,6 @@ Agua >> proporcionTierra [
 ]
 
 { #category : #calculating }
-Agua >> somosAgua [
-	^true.
-]
-
-{ #category : #calculating }
-Agua >> somosPantano [
-^false.
-]
-
-{ #category : #calculating }
-Agua >> somosTierra [
-	^false
-]
-
-{ #category : #calculating }
 Agua >> terrenoProductivo [
 	 ^0
 ]
