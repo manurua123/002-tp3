@@ -14,11 +14,6 @@ Uniforme >> proporcionAgua [
 	self subclassResponsibility 
 ]
 
-{ #category : #calculating }
-Uniforme >> proporcionPantano [
-	self subclassResponsibility
-]
-
 { #category : #'as yet unclassified' }
 Uniforme >> proporcionTierra [
 	self subclassResponsibility 

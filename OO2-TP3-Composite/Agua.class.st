@@ -13,7 +13,7 @@ Internal Representation and Key Implementation Points.
 "
 Class {
 	#name : #Agua,
-	#superclass : #Uniforme,
+	#superclass : #Puras,
 	#category : #'OO2-TP3-Composite'
 }
 
@@ -28,13 +28,8 @@ Agua >> proporcionAgua [
 ]
 
 { #category : #calculating }
-Agua >> proporcionPantano [
-	 ^0
-]
-
-{ #category : #calculating }
 Agua >> proporcionTierra [
-	^0
+	^ 0
 ]
 
 { #category : #calculating }

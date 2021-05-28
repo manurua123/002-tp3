@@ -1,6 +1,6 @@
 Class {
 	#name : #Tierra,
-	#superclass : #Uniforme,
+	#superclass : #Puras,
 	#category : #'OO2-TP3-Composite'
 }
 
@@ -12,11 +12,6 @@ Tierra >> = aTopografia [
 { #category : #calculating }
 Tierra >> proporcionAgua [
 	^0.
-]
-
-{ #category : #calculating }
-Tierra >> proporcionPantano [
-^0
 ]
 
 { #category : #calculating }

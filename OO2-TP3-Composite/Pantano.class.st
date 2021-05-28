@@ -1,29 +1,51 @@
 Class {
 	#name : #Pantano,
 	#superclass : #Uniforme,
+	#instVars : [
+		'proporcionAgua',
+		'proporcionTierra'
+	],
 	#category : #'OO2-TP3-Composite'
 }
+
+{ #category : #'instance creation' }
+Pantano class >> new [
+	^ self new
+		proporcionAgua: 0.7;
+		proporcionTierra: 0.3 yourself
+]
 
 { #category : #calculating }
 Pantano >> = aTopografia [
 	^ aTopografia somosPantano 
 ]
 
-{ #category : #calculating }
+{ #category : #'instance creation' }
+Pantano >> new [
+	^ self new
+		proporcionAgua: 0.7;
+		proporcionTierra: 0.3
+		yourself
+]
+
+{ #category : #accessing }
 Pantano >> proporcionAgua [
- ^0.7
+	^ proporcionAgua
 ]
 
-{ #category : #calculating }
-Pantano >> proporcionPantano [
-	^1
-	
+{ #category : #accessing }
+Pantano >> proporcionAgua: anObject [
+	proporcionAgua := anObject
 ]
 
-{ #category : #calculating }
+{ #category : #accessing }
 Pantano >> proporcionTierra [
- ^0.3
+	^ proporcionTierra
+]
 
+{ #category : #accessing }
+Pantano >> proporcionTierra: anObject [
+	proporcionTierra := anObject
 ]
 
 { #category : #calculating }

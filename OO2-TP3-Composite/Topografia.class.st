@@ -15,11 +15,6 @@ self subclassResponsibility
 ]
 
 { #category : #calculating }
-Topografia >> proporcionPantano [
-	self subclassResponsibility
-]
-
-{ #category : #calculating }
 Topografia >> proporcionTierra [
 	self subclassResponsibility 
 ]

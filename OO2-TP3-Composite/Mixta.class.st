@@ -23,11 +23,6 @@ Mixta >> proporcionAgua [
 	^(self topografias sumNumbers:  [ :each | each proporcionAgua  ])/4
 ]
 
-{ #category : #calculating }
-Mixta >> proporcionPantano [ 
-	^ (self topografias sumNumbers: [ :each | each proporcionPantano ]) / 4
-]
-
 { #category : #'as yet unclassified' }
 Mixta >> proporcionTierra [
 	^(self topografias sumNumbers:  [ :each | each proporcionTierra ])/4
