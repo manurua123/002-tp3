@@ -1,6 +1,6 @@
 Class {
 	#name : #Tierra,
-	#superclass : #Puras,
+	#superclass : #Elemental,
 	#category : #'OO2-TP3-Composite'
 }
 

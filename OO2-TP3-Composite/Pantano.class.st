@@ -1,6 +1,6 @@
 Class {
 	#name : #Pantano,
-	#superclass : #Uniforme,
+	#superclass : #Simple,
 	#instVars : [
 		'proporcionAgua',
 		'proporcionTierra'

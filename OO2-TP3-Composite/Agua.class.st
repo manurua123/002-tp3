@@ -13,7 +13,7 @@ Internal Representation and Key Implementation Points.
 "
 Class {
 	#name : #Agua,
-	#superclass : #Puras,
+	#superclass : #Elemental,
 	#category : #'OO2-TP3-Composite'
 }
 
