@@ -37,24 +37,9 @@ MixtaTest >> setUp [
 ]
 
 { #category : #test }
-MixtaTest >> testEqualsSign [
-	self deny: iguales1 equals: agua.
-	self deny: iguales1 equals: tierra.
-	self deny: iguales1 equals: distinta.
-	self assert: iguales1 equals: iguales2 .
-
-]
-
-{ #category : #test }
 MixtaTest >> testProporcionAgua [
 	self assert: iguales1 proporcionAgua equals: 0.675.
 	self assert: distinta proporcionAgua equals: 0.425
-]
-
-{ #category : #tests }
-MixtaTest >> testProporcionPantano [
-	self assert: iguales1 proporcionPantano equals: 1 / 4.
-	self assert: distinta proporcionPantano equals: 1/4.
 ]
 
 { #category : #test }

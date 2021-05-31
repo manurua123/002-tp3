@@ -8,19 +8,10 @@ Class {
 	#category : #'OO2-TP3-Composite'
 }
 
-{ #category : #'instance creation' }
-Pantano class >> new [
-	^ self new
-		proporcionAgua: 0.7;
-		proporcionTierra: 0.3 yourself
-]
-
-{ #category : #'instance creation' }
-Pantano >> new [
-	^ self new
-		proporcionAgua: 0.7;
-		proporcionTierra: 0.3
-		yourself
+{ #category : #initialization }
+Pantano >> initialize [ 
+	proporcionAgua := 0.7.
+	proporcionTierra := 0.3
 ]
 
 { #category : #accessing }

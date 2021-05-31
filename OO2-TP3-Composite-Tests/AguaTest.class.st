@@ -31,23 +31,9 @@ AguaTest >> setUp [
 ]
 
 { #category : #test }
-AguaTest >> testEqualsSign [
-
-	self assert: agua equals: agua2.
-	self deny: agua equals: tierra.
-	self deny: agua equals: iguales1 .
-	
-]
-
-{ #category : #test }
 AguaTest >> testProporcionAgua [
 
 	self assert: agua proporcionAgua equals: 1
-]
-
-{ #category : #test }
-AguaTest >> testProporcionPantano [
-	self assert: agua proporcionPantano equals: 0
 ]
 
 { #category : #test }

@@ -28,20 +28,8 @@ PantanoTest >> setUp [
 ]
 
 { #category : #tests }
-PantanoTest >> testEqualsSign [
-	self assert: pantano equals: pantano2.
-	self deny: pantano equals: agua.
-	self deny: pantano equals: iguales
-]
-
-{ #category : #tests }
 PantanoTest >> testProporcionAgua [
 	self assert: pantano proporcionAgua equals: 0.7
-]
-
-{ #category : #test }
-PantanoTest >> testProporcionPantano [
-	self assert: pantano proporcionPantano equals: 1
 ]
 
 { #category : #tests }

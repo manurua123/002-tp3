@@ -29,23 +29,9 @@ TierraTest >> setUp [
 ]
 
 { #category : #test }
-TierraTest >> testEqualsSign [
-	self assert: tierra equals: tierra2 .
-	self deny: tierra equals: agua.
-	self deny: tierra equals: iguales1 .
-	
-	
-]
-
-{ #category : #test }
 TierraTest >> testProporcionAgua [
 
 	self assert: tierra proporcionAgua equals: 0
-]
-
-{ #category : #test }
-TierraTest >> testProporcionPantano [
-	self assert: tierra proporcionPantano equals: 0
 ]
 
 { #category : #test }
