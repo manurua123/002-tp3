@@ -13,14 +13,9 @@ Internal Representation and Key Implementation Points.
 "
 Class {
 	#name : #Agua,
-	#superclass : #Elemental,
+	#superclass : #Simple,
 	#category : #'OO2-TP3-Composite'
 }
-
-{ #category : #calculating }
-Agua >> = aTopografia [
-	^aTopografia somosAgua.
-]
 
 { #category : #calculating }
 Agua >> proporcionAgua [

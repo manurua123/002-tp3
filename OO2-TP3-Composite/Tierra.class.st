@@ -1,13 +1,8 @@
 Class {
 	#name : #Tierra,
-	#superclass : #Elemental,
+	#superclass : #Simple,
 	#category : #'OO2-TP3-Composite'
 }
-
-{ #category : #calculating }
-Tierra >> = aTopografia [
-	^aTopografia somosTierra.
-]
 
 { #category : #calculating }
 Tierra >> proporcionAgua [
