@@ -19,17 +19,17 @@ Class {
 MixtaTest >> setUp [
 	| coll |
 	coll := OrderedCollection new.
-	coll add: Agua new.
-	coll add: Tierra new.
-	coll add: Agua new.
-	coll add: Pantano new.
+	coll   add: Agua new.
+	coll  add: Tierra new.
+	coll  add: Agua new.
+	coll  add: Pantano new.
 	iguales1 := Mixta new: coll.
 	iguales2 := Mixta new: coll.
 	coll := OrderedCollection new.
-	coll add: Pantano new.
-	coll add: Tierra new.
-	coll add: Tierra new.
-	coll add: Agua new.
+	coll  add: Pantano new.
+	coll  add: Tierra new.
+	coll   add: Tierra new.
+	coll   add: Agua new.
 	distinta := Mixta new: coll.
 	agua := Agua new.
 	tierra := Tierra new.

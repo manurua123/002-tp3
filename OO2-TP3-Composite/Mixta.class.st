@@ -8,9 +8,21 @@ Class {
 }
 
 { #category : #'instance creation' }
-Mixta class >> new: anOrderedCollection [ 
-	^self new topografias: anOrderedCollection;
-	 yourself.
+Mixta class >> new: anArray [
+	^ self new
+		topografias: anArray;
+		yourself
+]
+
+{ #category : #adding }
+Mixta >> addTopografia: aTopografia [
+	topografias size < 4 ifTrue:[ topografias add: aTopografia].
+	
+]
+
+{ #category : #initialization }
+Mixta >> initialize [
+	topografias := OrderedCollection new.
 ]
 
 { #category : #'as yet unclassified' }
@@ -21,6 +33,11 @@ Mixta >> proporcionAgua [
 { #category : #'as yet unclassified' }
 Mixta >> proporcionTierra [
 	^(self topografias sumNumbers:  [ :each | each proporcionTierra ])/4
+]
+
+{ #category : #removing }
+Mixta >> removeTopografia: aTopografia [
+	topografias remove: aTopografia. 
 ]
 
 { #category : #'as yet unclassified' }
